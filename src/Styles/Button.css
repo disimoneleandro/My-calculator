@@ -1,0 +1,67 @@
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: monospace;
+    width:70px;
+    height: 70px;
+    background-color: rgb(246, 246, 246);
+    border: solid 1px rgb(40, 23, 167);
+    color:rgb(32, 28, 64);
+    border-radius:5px;
+    margin: 10px;
+    box-shadow: 1px 1px 7px 1px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button:hover{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: monospace;
+    width:70px;
+    height: 70px;
+    background-color: rgb(48, 41, 94);
+    border: solid 1px rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    border-radius:5px;
+    margin: 10px;
+    box-shadow: 1px 1px 7px 1px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    transition: all .3s;
+}
+
+.operator{
+    background-color:rgb(235, 235, 235);
+    color: rgb(4, 66, 46);
+    border: solid 1px white;
+}
+
+.operator:hover{
+    background-color:rgb(6, 117, 82);
+    color: rgb(235, 235, 235);
+    border: solid 1px rgb(1, 97, 66);
+}
+
+.equals{
+    background-color: rgb(246, 246, 246);
+    border: solid 1px rgb(20, 199, 239);
+    color:rgba(19, 5, 61, 0.793);
+}
+
+.equals:hover{
+    background-color: rgb(89, 140, 211);
+    border: solid 1px rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+}

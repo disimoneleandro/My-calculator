@@ -1,0 +1,37 @@
+.clear-container {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.clear-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 166px;
+    height: 70px;
+    background-color:rgb(39, 50, 82);
+    border-radius: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    margin-right: 25px;
+}
+
+.clear-btn:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 166px;
+    height: 70px;
+    background-color:rgb(197, 53, 53);
+    border-radius: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    margin-right: 25px;
+    transition: all .2s;
+}
